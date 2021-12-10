@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 3px 3px;
+        grid-template-areas:
+            "pink pink pink pink"
+            "pink1 pink2 pink3 pink4"
+            "blue1 blue1 blue2 blue2"
+            "grn grn grn orge";
+    }
+
+}
+
+
+
+.lt-pink {
+    grid-area: pink;
+    height: 60px;
+    background-color: #F5C6D6;
+    border: 1px solid white;
+}
+
+.pink {
+    grid-area: pink1;
+    height: 60px;
+    background-color: #EE2E84;
+    border: 1px solid white;
+}
+
+.dk-pink-a {
+    grid-area: pink2;
+    height: 60px;
+    background-color: #EE2E84;
+    border: 1px solid white;
+}
+
+.dk-pink-b {
+    grid-area: pink3;
+    height: 60px;
+    background-color: #EE2E84;
+    border: 1px solid white;
+}
+
+.dk-pink-c {
+    grid-area: pink4;
+    height: 60px;
+    background-color: #EE2E84;
+    border: 1px solid white;
+}
+
+.blue {
+    grid-area: blue1;
+    height: 60px;
+    background-color: #85CFD8;
+    border: 1px solid white;
+}
+
+.lt-blue1 {
+    grid-area: blue2;
+    height: 60px;
+    background-color: #85CFD8;
+    border: 1px solid white;
+}
+
+.multi {}
+
+.grn {
+    grid-area: grn;
+    height: 60px;
+    background-color: #8DC63F;
+    border: 1px solid white;
+}
+
+.orge {
+    grid-area: orge;
+    height: 60px;
+    background-color: #E76E34;
+    border: 1px solid white;
+}

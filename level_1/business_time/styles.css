@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+    html {
+        background: rgb(116, 148, 130);
+    }
+
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    ul.topnav li {
+        float: left;
+    }
+
+    ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    ul.topnav li a.active {
+        background-color: #04AA6D;
+    }
+
+    ul.topnav li.right {
+        float: right;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    html,
+    body,
+    header {
+        grid-area: header;
+    }
+
+    nav {
+        grid-area: menu;
+    }
+
+    article {
+        grid-area: main;
+    }
+
+    section {
+        grid-area: right1;
+    }
+
+    #section-2 {
+        grid-area: right2;
+    }
+
+    #section-3 {
+        grid-area: right3;
+    }
+
+    footer {
+        grid-area: footer;
+        text-align: start;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header header header header header'
+            'menu main main right1 right2 right3'
+            'footer footer footer footer footer footer';
+        grid-gap: 120px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+
+    .grid-container>div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+}

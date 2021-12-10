@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flag {
+    padding-left: 1em;
+    margin-bottom: 10px;
+}
+
+
+.france {
+    height: 200px;
+    width: 300px;
+}
+
+.fr-color-one {
+    height: 60px;
+    background-color: #002495;
+}
+
+.fr-color-two {
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+.fr-color-three {
+    height: 60px;
+    background-color: #ED2938;
+}
+
+/*    Blue: #002495 - White: #FFFFFF - Red: #ED2938 - Aspect Ratio: 2:3*/
+
+.germany {
+    height: 200px;
+    width: 333px;
+}
+
+.gr-color-one {
+    height: 60px;
+    background-color: #000000;
+}
+
+.gr-color-two {
+    height: 60px;
+    background-color: #DE0002;
+}
+
+.gr-color-three {
+    height: 60px;
+    background-color: #FFCE00;
+}
+
+/*- Black: #000000 - Red: #DE0002 - Yellow: #FFCE00 - Aspect Ratio: 3:5*/
+
+
+.madagascar {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black
+}
+
+.md-color-one {
+    margin-top: 0px;
+    height: 200px;
+    width: 90px;
+    margin-left: 0px;
+    background-color: #FFFFFF;
+}
+
+.md-color-two {
+    height: 100px;
+    background-color: #FC3E32;
+}
+
+.md-color-three {
+    height: 100px;
+    background-color: #007E39;
+}
+
+/*- White: #FFFFFF - Red: #FC3E32 - Green: #007E39 - Aspect Ratio: 2:3 - */
+
+#switzerland {
+    width: 200px;
+    height: 200px;
+    padding: 18px;
+    background-color: #FF0002;
+}
+
+.cross {
+    position: absolute;
+    background-color: white;
+    display: block;
+}
+
+.sz-vertical {
+    margin-top: 12.5px;
+    height: 175px;
+    width: 40px;
+    margin-left: 80px;
+}
+
+.sz-horizontal {
+    width: 175px;
+    height: 40px;
+    margin-left: 12.5px;
+    margin-top: 80px;
+}
+
+/*- White: #FFFFFF - Red: #FF0002 - Aspect Ratio: 1:1 - */
+
+.sweden {
+    height: 200px;
+    width: 320px;
+    margin-top: 30px;
+    background-color: #0269A6;
+}
+
+.swcross {
+    position: absolute;
+    background-color: #FECC00;
+    display: block;
+}
+
+.sw-vertical {
+    margin-top: 0px;
+    height: 200px;
+    width: 40px;
+    margin-left: 80px;
+}
+
+.sw-horizontal {
+    width: 336px;
+    height: 40px;
+    margin-left: -16px;
+    margin-top: 80px;
+}
+
+/*- Blue: #0269A6 - Yellow: #FECC00 - Aspect Ratio: 5:8 - */
+
+.gambia {
+    height: 200px;
+    width: 300px;
+}
+
+.gm-color-one {
+    height: 60px;
+    background-color: #CE1127;
+}
+
+.gm-color-two {
+    height: 10px;
+    background-color: #FFFFFF;
+}
+
+.gm-color-three {
+    height: 40px;
+    background-color: #0D1D8B;
+}
+
+.gm-color-four {
+    height: 60px;
+    background-color: #3B7827;
+}
+
+/*- Red: #CE1127 - White: #FFFFFF - Blue: #0D1D8B - Green: #3B7827 - Aspect Ratio: 2:3 - */
+
+.japan {
+    height: 200px;
+    width: 300px;
+    background: #FFFFFF;
+    border: 1px solid black;
+}
+
+.jp-color-one {
+    height: 100px;
+    width: 100px;
+    background-color: #BC022c;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+/*.jp-color-two {
+    height: 60px;
+    background-color: #BC022C;
+}*/
+
+/*- White: #FFFFFF - Red: #BC022C - Aspect Ratio: 2:3 - */
+
+.niger {
+    height: 257px;
+    width: 300px;
+}
+
+.ni-color-one {
+    height: 60px;
+    background-color: #E15307;
+}
+
+.ni-color-two {
+    height: 100px;
+    width: 100px;
+    background-color: #BC022c;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+}
+
+.ni-color-three {
+    height: 60px;
+    background-color: #10AF2A;
+}
+
+/*- Orange: #E15307 - White: #FFFFFF - Green: #10AF2A - Aspect Ratio: 6:7*/

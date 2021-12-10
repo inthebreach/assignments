@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    max-width: 500px;
+    height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas:
+        "red red red red"
+        "blue blue green green"
+        "blue blue purple1 purple2";
+    justify-content: space-around;
+}
+
+.div1 {
+    grid-area: red;
+    background: red;
+    border-radius: 10px;
+}
+
+.div2 {
+    grid-area: blue;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.div3 {
+    grid-area: green;
+    background: green;
+    border-radius: 10px;
+}
+
+.div4 {
+    grid-area: purple1;
+    background: blueviolet;
+    border-radius: 10px;
+}
+
+.div5 {
+    grid-area: purple2;
+    background: blueviolet;
+    border-radius: 10px;
+}

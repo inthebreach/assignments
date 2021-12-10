@@ -1,0 +1,178 @@
+/*phone*/
+@media (max-width: 480px) {
+    .container {
+        display: grid;
+        max-width: 500px;
+        height: 400px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-areas:
+            "red red red red"
+            "blue blue blue blue"
+            "green green green green"
+            "purple purple purple purple"
+            "footer footer footer footer";
+        justify-content: space-around;
+    }
+
+    header {
+        grid-area: red;
+        background: red;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    aside {
+        grid-area: blue;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    main {
+        grid-area: green;
+        background: green;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #sidebar2 {
+        grid-area: purple;
+        background: blueviolet;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    footer {
+        grid-area: footer;
+        background: black;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+/*tablet*/
+@media (min-width:481px) and (max-width: 767px) {
+    .container {
+        display: grid;
+        max-width: 500px;
+        height: 400px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-areas:
+            "red red red red"
+            "blue green green green"
+            "blue green green green"
+            "purple purple purple purple"
+            "footer footer footer footer";
+        justify-content: space-around;
+    }
+
+    header {
+        grid-area: red;
+        background: red;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    aside {
+        grid-area: blue;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    main {
+        grid-area: green;
+        background: green;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #sidebar2 {
+        grid-area: purple;
+        background: blueviolet;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    footer {
+        grid-area: footer;
+        background: black;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width:768px) and (max-width: 1280px) {
+    .container {
+        display: grid;
+        max-width: 500px;
+        height: 400px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-areas:
+            "red red red red"
+            "blue green green purple"
+            "blue green green purple"
+            "footer footer footer footer";
+        justify-content: space-around;
+    }
+
+    header {
+        grid-area: red;
+        background: red;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    aside {
+        grid-area: blue;
+        background-color: blue;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    main {
+        grid-area: green;
+        background: green;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #sidebar2 {
+        grid-area: purple;
+        background: blueviolet;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+
+    footer {
+        grid-area: footer;
+        background: black;
+        border-radius: 10px;
+        font-size: 30px;
+        color: white;
+    }
+}
