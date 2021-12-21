@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>travel form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form name="travel">  
+          <input type="text" name="firstName" placeholder="First Name">
+          <br>
+            <input type="text" name="lastName" placeholder="Last Name">
+            <br>
+            <input type="number" name="age" placeholder="Age">
+            <br><br>
+            Male:
+            <input type="radio" name="gender" value="Male"/>
+            <br>
+            Female:
+            <input type="radio" name="gender" value="Female"/>
+            <br><br>
+            Destination:
+            
+            <select name="country">
+                <option value="Russia">Russia</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+                <br>
+                <br>
+            Dietary Restrictions:
+            <input type="checkbox" name="diet" value="Vegetarian">
+            <label for="diet"> Vegetarian</label>
+            <input type="checkbox" name="diet" value="Lactose">
+            <label for="diet"> Lactose Free</label>
+            <input type="checkbox" name="diet" value="Kosher">
+            <labe for="diet"> Kosher</label><br><br>
+                <button type="submit">Submit</button>
+            </form>
+            
+            
+               <script src="index.js"></script>
+    </body>
+</html>
