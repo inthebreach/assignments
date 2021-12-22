@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+#bobomb {
+    width: 310px;
+    height: 250px;
+    border-radius: 50% margin-bottom: 1rem
+}
+
+#cheepcheep {
+    width: 310px;
+    height: 250px;
+    border-radius: 50% margin-bottom: 1rem
+}
+
+footer {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
